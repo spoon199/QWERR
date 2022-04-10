@@ -1,0 +1,50 @@
+ul {
+
+list-style: none; 4 padding-left: 0px;
+margin: 0px;
+margin-top:25px;
+background: #FF4444;
+height: 50px;
+  
+
+}
+  a {
+text-decoration: none;
+background: #FF4444;
+color: #ffffff; padding: 0px 15px;
+font-family: arial;
+line-height: 50px;
+display: block; 
+serder-right: 1px solid;
+      
+}
+a:hover {
+  background: black;
+}
+li {
+  float: left;
+margin-right: 5px;
+}
+li >ul {
+  position: absolute;
+  top: 50px;
+  diplay: none;
+}
+li:hover >ul {
+  display: block;
+  width: 100px;
+}
+li:hover > ul > li {
+  float: none;
+}
+
+body {
+font-family: 'Dosis', sans-serif;
+}
+
+@font-face {
+font-family:
+Dosis-VariableFont_wght;
+src: url
+(Dosis-VariableFont_wght.ttf) format(ttf);
+} 
